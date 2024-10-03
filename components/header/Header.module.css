@@ -1,0 +1,51 @@
+.header {
+  /* border: 1px ridge black; */
+  height: 100px;
+}
+
+.headerContainer {
+  /* border: 2px solid red; */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  /* border: 1px solid black; */
+  width: 300px;
+  padding-top: 10px;
+}
+
+.headerList {
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(51, 233, 51);
+}
+
+.listItem {
+  /* border: 1px solid black; */
+  padding: 20px 0px 20px 50px;
+  font-size: 16px;
+}
+
+.listItemFlex {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeIcon {
+  font-size: 22px;
+  margin-bottom: 5px;
+}

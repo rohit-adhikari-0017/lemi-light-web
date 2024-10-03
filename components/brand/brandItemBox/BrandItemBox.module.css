@@ -1,0 +1,30 @@
+.brandItemBox {
+  /* border: 1px solid black; */
+  width: 300px;
+}
+
+.brandContent {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px
+}
+
+
+
+.brandIconBox {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.brandIcon {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(51, 233, 51);
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

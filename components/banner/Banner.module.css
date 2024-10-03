@@ -1,0 +1,64 @@
+.banner {
+  /* border: 3px solid red; */
+  background-color: gainsboro;
+
+}
+
+.bannerContainer {
+  display: flex;
+}
+
+.bannerSignUpBox {
+  width: 40%;
+  /* height: 400px; */
+  padding: 80px 0px 60px 0px;
+  /* border: 1px solid black; */
+}
+
+/* .signUpEmailContent {
+  border: 1px solid black;
+} */
+
+.emailContentHeading {
+  /* border: 1px solid black; */
+  font-weight: bolder;
+  font-size: 35px;
+  margin: 0px 0px 10px 0px;
+}
+
+.signUpEmailBox {
+  margin-top: 40px;
+  /* border: 1px solid black; */
+
+}
+
+.signUpEmail {
+  /* border: 1px solid black; */
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px 0px 10px 20px;
+  border-radius: 5px;
+
+}
+
+.signUpBtn {
+  border: none;
+  width: 150px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(51, 233, 51);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+
+}
+
+
+.bannerImgBox {
+  width: 60%;
+  /* height: 400px; */
+  padding: 80px 0px 0px 0px;
+  display: flex;
+  justify-content: end;
+  /* border: 1px solid black; */
+}
