@@ -18,7 +18,7 @@ const BrandItemBox = ({ data }) => {
         <div className={`${Style.brandContent}`}>
           <div className={`${Style.brandDetails}`}>
             <h1>{data.title}</h1>
-            <p>{data.parr}</p>
+            <p>{data.para}</p>
           </div>
           <div className={`${Style.brandIconBox}`}>
             <span className={`${Style.brandIcon}`}>

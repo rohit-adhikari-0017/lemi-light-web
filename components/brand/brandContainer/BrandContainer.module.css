@@ -10,3 +10,9 @@
   justify-content: space-between;
   gap: 20px;
 }
+
+@media screen and (max-width: 1050px) {
+  .brandMainBox {
+    justify-content: center;
+  }
+}

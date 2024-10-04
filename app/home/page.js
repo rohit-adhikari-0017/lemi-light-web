@@ -1,7 +1,6 @@
 import Banner from "@/components/banner/Banner";
 import Brand from "@/components/brand/Brand";
 import Header from "@/components/header/Header";
-import React from "react";
 
 function Home() {
   return (

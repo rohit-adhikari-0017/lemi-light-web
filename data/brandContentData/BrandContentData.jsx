@@ -15,63 +15,63 @@ export let BrandContentData = [
   {
     image: BrandImgOne,
     title: "Responsive Showcase...",
-    parr: "Templates, PSD",
+    para: "Templates, PSD",
   },
   {
     image: BrandImgTwo,
     title: "Round Icon Set",
-    parr: "Icon Misk",
+    para: "Icon Misk",
   },
   {
     image: BrandImgThree,
     title: "Nexa Free Font",
-    parr: "Font, Sans, Serif",
+    para: "Font, Sans, Serif",
   },
   {
     image: BrandImgFour,
     title: "Meteocons",
-    parr: "Icons, Weather",
+    para: "Icons, Weather",
   },
   {
     image: BrandImgFive,
     title: "The Bricks - UI Pack",
-    parr: "Templates, UI Kits",
+    para: "Templates, UI Kits",
   },
   {
     image: BrandImgSix,
     title: "Apple Cinema Display...",
-    parr: "Templates, Mock-Ups",
+    para: "Templates, Mock-Ups",
   },
 
   {
     image: BrandImgSeven,
     title: "Responsive Showcase Mockup",
-    parr: "Templates, PSD",
+    para: "Templates, PSD",
   },
   {
     image: BrandImgEight,
     title: "Round Icon Set",
-    parr: "Icons, Misc",
+    para: "Icons, Misc",
   },
   {
     image: BrandImgNine,
     title: "Nexa Free Font",
-    parr: "Font, Sans, Serif",
+    para: "Font, Sans, Serif",
   },
   {
     image: BrandImgTen,
     title: "Meteocons",
-    parr: "Icons, Weather",
+    para: "Icons, Weather",
   },
   {
     image: BrandImgEleven,
     title: "The Bricks - UI Pack",
-    parr: "Templates, UI Kits",
+    para: "Templates, UI Kits",
   },
   {
     image: BrandImgTwelve,
     title: "Apple Cinema Display Mockup",
-    parr: "Templates, Mock-Ups",
+    para: "Templates, Mock-Ups",
   },
   // {
   //   image: "path/to/BrandImgSeven",

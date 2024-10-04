@@ -5,9 +5,10 @@ import BrandItemBox from "../brandItemBox/BrandItemBox";
 import Button from "@/lib/button/Button";
 
 const BrandContainer = ({ brandData }) => {
-  const [iCounter, setICounter] = useState(2); // Initialize state for iCounter
+  const [visibleCountData, setVisibleCountData] = useState(2);
   const ReadMoreButton = () => {
-    setICounter((prevCounter) => prevCounter + 3); // Increase iCounter by 3
+    let newData = visibleCountData + 2;
+    setVisibleCountData(newData);
   };
   return (
     <>
@@ -16,7 +17,7 @@ const BrandContainer = ({ brandData }) => {
           {brandData.map((data, i) => {
             return (
               <>
-                {i <= iCounter ? (
+                {i <= visibleCountData ? (
                   <BrandItemBox key={i} data={data}></BrandItemBox>
                 ) : null}
               </>
